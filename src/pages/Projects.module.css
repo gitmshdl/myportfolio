@@ -1,0 +1,24 @@
+.container {
+  background: linear-gradient(
+    to bottom,
+    var(--charcoal),
+    var(--darkvioloet) 5%
+  );
+  min-height: 95svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--redorange);
+}
+
+.title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title > span:hover {
+  color: lemonchiffon;
+}

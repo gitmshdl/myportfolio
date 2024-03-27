@@ -1,0 +1,56 @@
+.control {
+  background: linear-gradient(
+    to bottom,
+    #00008b,
+    var(--charcoal) /* var(--darkvioloet) */
+  );
+  min-height: 5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: var(--charcoal);
+  background-image: url("../assets/kisspng-computer-icons-skill-portable-network-graphics-cli-yirelis-argentina-hernandez-canales-promise-kids-5c4cfdd0b50332.5313576315485495847414.png");
+  min-height: 95svh;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--redorange);
+}
+
+.resume {
+  color: var(--mango);
+  font-size: 1.5rem;
+}
+
+/* background: linear-gradient(to bottom, var(--navy) 90%, #00008b); */
+
+.icon {
+  font-size: 4rem;
+}
+
+.icon:hover {
+  color: var(--mango);
+}
+
+@media (max-width: 767px) {
+  .icon {
+    font-size: 2rem;
+  }
+}
+
+.title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title > span:hover {
+  color: lemonchiffon;
+}

@@ -1,0 +1,25 @@
+.container {
+  background-color: #00008b;
+  min-height: 80svh;
+  background-image: url(../assets/bg-1.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: var(--mango);
+}
+
+.title {
+  color: var(--redorange);
+}
+
+.title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title > span:hover {
+  color: lemonchiffon;
+}

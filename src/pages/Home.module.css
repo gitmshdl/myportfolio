@@ -1,0 +1,9 @@
+.container {
+  background: linear-gradient(to bottom, var(--navy) 90%, #00008b);
+  /* background-color: var(--navy); */
+  min-height: 95svh;
+}
+
+canvas[data-generated="true"] {
+  height: 100svh !important;
+}

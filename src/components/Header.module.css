@@ -1,0 +1,45 @@
+.text {
+  color: var(--almond);
+}
+
+.title {
+  color: var(--redorange);
+  padding-top: 0.5rem;
+  font-weight: bolder;
+}
+
+.title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title > span:hover {
+  color: lemonchiffon;
+}
+
+.btn {
+  color: var(--mango);
+}
+
+.container {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.image {
+  width: 350px;
+  animation: updown 3s ease-in-out infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
