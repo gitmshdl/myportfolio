@@ -8,10 +8,18 @@ import expense from "../assets/expense.jpg";
 import myfirstsite from "../assets/my-portfolio.jpg";
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
+import news from "../assets/news.png";
 
 function Projects() {
   const title = "Projects";
   const projects = [
+    {
+      title: "Canada News",
+      description: "Live News in Canada using an external API",
+      image: news,
+      link: "https://news-seven-jade.vercel.app/",
+      github: "https://github.com/gitmshdl/news",
+    },
     {
       title: "Starbucks Clone",
       description: "Starbucks Canada Official Website Clone",
