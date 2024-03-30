@@ -70,7 +70,7 @@ function NavigationBar() {
               smooth={true}
               offset={-70}
               duration={500}
-              href="#contacts"
+              href="#contact"
               className={classes["nav-link"]}
             >
               Contact

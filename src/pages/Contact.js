@@ -1,13 +1,13 @@
 import React from "react";
-import classes from "./Contacts.module.css";
+import classes from "./Contact.module.css";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import Footer from "../components/Footer";
 import image from "../assets/—Pngtree—shake hands_8742463.png";
 
 function Contact() {
-  const title = "Contacts";
+  const title = "Contact";
   return (
-    <div className={classes.container} id="contacts">
+    <div className={classes.container} id="contact">
       <Container>
         <h1
           className={`${classes.title} animate__animated animate__slideInDown text-center`}
