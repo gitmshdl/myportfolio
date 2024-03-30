@@ -126,7 +126,7 @@ function Skills() {
                   resume
                 </span>
               </a>{" "}
-              for more details
+              for more details!
             </h6>
           </Stack>
           <Stack
