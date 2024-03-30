@@ -73,7 +73,7 @@ function NavigationBar() {
               href="#contacts"
               className={classes["nav-link"]}
             >
-              Contacts
+              Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

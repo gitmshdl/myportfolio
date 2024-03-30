@@ -4,7 +4,7 @@ import { Col, Container, Row, Stack } from "react-bootstrap";
 import Footer from "../components/Footer";
 import image from "../assets/—Pngtree—shake hands_8742463.png";
 
-function Contacts() {
+function Contact() {
   const title = "Contacts";
   return (
     <div className={classes.container} id="contacts">
@@ -50,4 +50,4 @@ function Contacts() {
   );
 }
 
-export default Contacts;
+export default Contact;
