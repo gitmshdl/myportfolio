@@ -53,7 +53,7 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
-              href="#contacts"
+              href="#contact"
               className={`${classes.btn} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat`}
             >
               Let's Connect <ArrowRightCircle size={25} />
