@@ -69,33 +69,3 @@ function Header() {
 }
 
 export default Header;
-
-{
-  /* <h1
-              className={`${classes.title} animate__animated animate__slideInDown`}
-            >
-              <span>W</span>
-              <span>e</span>
-              <span>l</span>
-              <span>c</span>
-              <span>o</span>
-              <span>m</span>
-              <span>e</span>
-              <span> </span>
-              <span>t</span>
-              <span>o</span>
-              <span> </span>
-              <span>m</span>
-              <span>y</span>
-              <span> </span>
-              <span>P</span>
-              <span>o</span>
-              <span>r</span>
-              <span>t</span>
-              <span>f</span>
-              <span>o</span>
-              <span>l</span>
-              <span>i</span>
-              <span>o</span>
-            </h1> */
-}
