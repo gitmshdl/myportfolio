@@ -23,7 +23,7 @@
 
 .container {
   position: absolute;
-  bottom: 0.1rem;
+  bottom: 1rem;
   left: 1rem;
 }
 
@@ -41,5 +41,12 @@
   }
   100% {
     transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    position: absolute;
+    top: 5rem;
   }
 }
