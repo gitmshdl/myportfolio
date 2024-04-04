@@ -49,4 +49,7 @@
     position: absolute;
     top: 5rem;
   }
+  .image {
+    width: 250px;
+  }
 }
