@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className={classes.container}>
       <Container>
-        <Row className="align-itmes-center">
+        <Row className={`${classes.rowContainer} align-itmes-center`}>
           <Col xs={12} md={6} xl={7}>
             <h1
               className={`${classes.title} animate__animated animate__slideInDown`}

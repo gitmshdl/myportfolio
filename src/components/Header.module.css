@@ -2,6 +2,10 @@
   color: var(--almond);
 }
 
+.rowContainer {
+  position: relative;
+}
+
 .title {
   color: var(--redorange);
   padding-top: 0.5rem;

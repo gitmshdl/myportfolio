@@ -5,7 +5,7 @@ import netflix from "../assets/netflix.jpg";
 import notemap from "../assets/notemap.jpg";
 import sushi from "../assets/sushi.jpg";
 import expense from "../assets/expense.jpg";
-import myfirstsite from "../assets/my-portfolio.jpg";
+// import myfirstsite from "../assets/my-portfolio.jpg";
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 import news from "../assets/news.png";
@@ -56,13 +56,13 @@ function Projects() {
       link: "https://expenses-gitmshdl.vercel.app/",
       github: "https://github.com/gitmshdl/expenses",
     },
-    {
-      title: "Portfolio Sample",
-      description: "",
-      image: myfirstsite,
-      link: "https://my-website-snowy-six.vercel.app/",
-      github: "https://github.com/gitmshdl/my-website",
-    },
+    // {
+    //   title: "Portfolio Sample",
+    //   description: "",
+    //   image: myfirstsite,
+    //   link: "https://my-website-snowy-six.vercel.app/",
+    //   github: "https://github.com/gitmshdl/my-website",
+    // },
   ];
 
   return (
