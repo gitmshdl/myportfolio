@@ -9,27 +9,35 @@ import expense from "../assets/expense.jpg";
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 import news from "../assets/news.png";
+import realEstate from "../assets/real-estate.png";
 
 function Projects() {
   const title = "Projects";
   const projects = [
     {
+      title: "Real Estate UI",
+      description: "Real Estate Website using React Bootstrap",
+      image: realEstate,
+      link: "https://real-estate-clone-sooty.vercel.app/",
+      github: "https://github.com/gitmshdl/real-estate-clone",
+    },
+    {
       title: "Canada News",
-      description: "Live News in Canada using an external API",
+      description: "Live News in Canada using React Bootstrap",
       image: news,
       link: "https://news-seven-jade.vercel.app/",
       github: "https://github.com/gitmshdl/news",
     },
     {
       title: "Starbucks Clone",
-      description: "Starbucks Canada Official Website Clone",
+      description: "Starbucks Canada Official Website Clone using Material UI",
       image: starbucks,
       link: "https://starbucks-clone-liart.vercel.app/",
       github: "https://github.com/gitmshdl/starbucks-clone",
     },
     {
       title: "Netflix Clone",
-      description: "Netflix UI",
+      description: "Netflix UI using React Bootstrap and MongoDB",
       image: netflix,
       link: "https://netflix-ui-sable.vercel.app/login",
       github: "https://github.com/gitmshdl/netflix-clone",

@@ -6,6 +6,7 @@
   border: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  border-radius: 8px;
 }
 .imageBox::before {
   content: "";
