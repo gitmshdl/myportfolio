@@ -29,8 +29,9 @@ function Projects() {
       github: "https://github.com/gitmshdl/news",
     },
     {
-      title: "Starbucks Clone",
-      description: "Starbucks Canada Official Website Clone using Material UI",
+      title: "Starbucks.ca Clone",
+      description:
+        "Starbucks Canada Official Website (starbucks.ca) Clone using Material UI",
       image: starbucks,
       link: "https://starbucks-clone-liart.vercel.app/",
       github: "https://github.com/gitmshdl/starbucks-clone",
