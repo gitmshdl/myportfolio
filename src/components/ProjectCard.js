@@ -23,16 +23,18 @@ function ProjectCard({ title, description, image, link, github }) {
             >
               <AiOutlineGithub size="3rem" />
             </a>
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={
-                "ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat"
-              }
-            >
-              <TbLivePhoto size="3rem" />
-            </a>
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={
+                  "ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat"
+                }
+              >
+                <TbLivePhoto size="3rem" />
+              </a>
+            )}
           </div>
         </div>
       </div>

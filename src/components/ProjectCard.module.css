@@ -1,5 +1,6 @@
 .image {
   width: 100%;
+  min-height: 250px;
 }
 .imageBox {
   position: relative;

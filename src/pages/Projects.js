@@ -10,25 +10,21 @@ import { Container, Row } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCard";
 import news from "../assets/news.png";
 import realEstate from "../assets/real-estate.png";
+import sqlImage from "../assets/sql.jpg";
 
 function Projects() {
   const title = "Projects";
   const projects = [
     {
-      title: "Real Estate UI",
-      description: "Real Estate Website using React Bootstrap",
-      image: realEstate,
-      link: "https://real-estate-clone-sooty.vercel.app/",
-      github: "https://github.com/gitmshdl/real-estate-clone",
+      id: 8,
+      title: "MySQL: Data analysis on COVID19",
+      description: "",
+      image: sqlImage,
+      github:
+        "https://github.com/gitmshdl/portfolioproject-COVID-DATA-ANALYSIS/blob/main/PortfolioProject-COVID19.sql",
     },
     {
-      title: "Canada News",
-      description: "Live News in Canada using React Bootstrap",
-      image: news,
-      link: "https://news-seven-jade.vercel.app/",
-      github: "https://github.com/gitmshdl/news",
-    },
-    {
+      id: 7,
       title: "Starbucks.ca Clone",
       description:
         "Starbucks Canada Official Website (starbucks.ca) Clone using Material UI",
@@ -37,6 +33,23 @@ function Projects() {
       github: "https://github.com/gitmshdl/starbucks-clone",
     },
     {
+      id: 6,
+      title: "Real Estate UI",
+      description: "Real Estate Website using React Bootstrap",
+      image: realEstate,
+      link: "https://real-estate-clone-sooty.vercel.app/",
+      github: "https://github.com/gitmshdl/real-estate-clone",
+    },
+    {
+      id: 5,
+      title: "Canada News",
+      description: "Live News in Canada using React Bootstrap",
+      image: news,
+      link: "https://news-seven-jade.vercel.app/",
+      github: "https://github.com/gitmshdl/news",
+    },
+    {
+      id: 4,
       title: "Netflix Clone",
       description: "Netflix UI using React Bootstrap and MongoDB",
       image: netflix,
@@ -44,6 +57,7 @@ function Projects() {
       github: "https://github.com/gitmshdl/netflix-clone",
     },
     {
+      id: 3,
       title: "Note Map",
       description:
         "Map from Leaflet library asks your current location and share your messages with other users.",
@@ -52,6 +66,7 @@ function Projects() {
       github: "https://github.com/gitmshdl/notemap",
     },
     {
+      id: 2,
       title: "Sushi",
       description: "Food ordering UI using React.",
       image: sushi,
@@ -59,6 +74,7 @@ function Projects() {
       github: "https://github.com/gitmshdl/sushi",
     },
     {
+      id: 1,
       title: "Expense",
       description: "Simple expense list that you can track of.",
       image: expense,
@@ -93,7 +109,7 @@ function Projects() {
         </h1>
         <Row>
           {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
+            <ProjectCard key={project.id} {...project} />
           ))}
         </Row>
       </Container>

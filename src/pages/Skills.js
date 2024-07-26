@@ -9,10 +9,11 @@ import {
   DiReact,
   DiVisualstudio,
 } from "react-icons/di";
-import { SiRedux } from "react-icons/si";
+import { SiMysql, SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import classes from "./Skills.module.css";
 import { Container, Stack } from "react-bootstrap";
+import { TbCircleLetterR } from "react-icons/tb";
 
 function Skills() {
   const title = "Skills";
@@ -77,6 +78,22 @@ function Skills() {
       title: "MongoDB",
       badge: (
         <DiMongodb
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "R",
+      badge: (
+        <TbCircleLetterR
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "MySQL",
+      badge: (
+        <SiMysql
           className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
         />
       ),
