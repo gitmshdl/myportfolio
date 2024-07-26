@@ -29,6 +29,7 @@ function Header() {
             </h1>
             <ReactTyped
               strings={[
+                "Dana Analyst",
                 "Front-End Developer",
                 "UI/UX Designer",
                 "Problem Solver",
@@ -42,8 +43,7 @@ function Header() {
             </ReactTyped>
             <h2 className={classes.text}>
               Resolving design problems, building smart user interfaces and
-              useful interactions, developing rich web applications and seamless
-              web experiences.
+              useful interactions, developing rich data analysis.
             </h2>
             <Button
               variant="outline"

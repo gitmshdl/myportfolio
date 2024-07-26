@@ -9,7 +9,7 @@ import {
   DiReact,
   DiVisualstudio,
 } from "react-icons/di";
-import { SiMysql, SiRedux } from "react-icons/si";
+import { SiMicrosoftexcel, SiMysql, SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import classes from "./Skills.module.css";
 import { Container, Stack } from "react-bootstrap";
@@ -18,6 +18,38 @@ import { TbCircleLetterR } from "react-icons/tb";
 function Skills() {
   const title = "Skills";
   const logos = [
+    {
+      title: "MySQL",
+      badge: (
+        <SiMysql
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "MS Excel",
+      badge: (
+        <SiMicrosoftexcel
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "R",
+      badge: (
+        <TbCircleLetterR
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "MongoDB",
+      badge: (
+        <DiMongodb
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
     {
       title: "HTML",
       badge: (
@@ -75,30 +107,6 @@ function Skills() {
       ),
     },
     {
-      title: "MongoDB",
-      badge: (
-        <DiMongodb
-          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
-        />
-      ),
-    },
-    {
-      title: "R",
-      badge: (
-        <TbCircleLetterR
-          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
-        />
-      ),
-    },
-    {
-      title: "MySQL",
-      badge: (
-        <SiMysql
-          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
-        />
-      ),
-    },
-    {
       title: "Visual Studio",
       badge: <DiVisualstudio className={classes.icon} />,
     },
@@ -124,11 +132,11 @@ function Skills() {
             ))}
           </h1>
           <Stack className="mt-3 mb-5">
-            <h6>The main area of expertise is front end development.</h6>
+            <h6>The main area of expertise is working with data.</h6>
             <h6>
-              HTML, CSS, JavaScript, building small and medium web applications
-              with React, custom plugins, features, animations, and coding
-              interactive layouts.
+              I naturally see numbers with a strong background in mathematics
+              and programming, I am adept at handling complex datasets and
+              transforming raw data into actionable intelligence."
             </h6>
             <h6>
               Get my{" "}
