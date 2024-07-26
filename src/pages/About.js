@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function About() {
   const title1 = "Hi, I am David Lee";
-  const title2 = "Web Developer";
+  const title2 = "Data Analyst";
   return (
     <div className={classes.container} id="about">
       <Container>
@@ -41,7 +41,7 @@ function About() {
             <h6
               className={`${classes.text} animate__animated animate__slideInDown`}
             >
-              Front-End Developer / JavaScript Fan
+              Data Analyst / SQL Fan
             </h6>
           </Col>
           <Col xs={12} md={6} xl={7} className={`${classes.right} mb-3`}>
@@ -60,11 +60,9 @@ function About() {
               the intricacies of software development, and I knew I had
               discovered my true calling.
               <br />
-              <br />
-              Despite not having work experience in coding prior to this, I am
-              determined to excel and elevate my skills to new heights. I am
-              committed to embracing every challenge and seizing every
-              opportunity to grow as a developer.
+              <br />I am determined to excel and elevate my skills to new
+              heights. I am committed to embracing every challenge and seizing
+              every opportunity to grow as a Data Analyst.
             </h6>
           </Col>
         </Row>
