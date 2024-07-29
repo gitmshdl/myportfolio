@@ -14,6 +14,7 @@ import { FaGitAlt } from "react-icons/fa";
 import classes from "./Skills.module.css";
 import { Container, Stack } from "react-bootstrap";
 import { TbCircleLetterR } from "react-icons/tb";
+import { IoLogoTableau } from "react-icons/io5";
 
 function Skills() {
   const title = "Skills";
@@ -38,6 +39,14 @@ function Skills() {
       title: "R",
       badge: (
         <TbCircleLetterR
+          className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
+        />
+      ),
+    },
+    {
+      title: "Tableau",
+      badge: (
+        <IoLogoTableau
           className={`${classes.icon} ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat}`}
         />
       ),
@@ -141,7 +150,7 @@ function Skills() {
             <h6>
               Get my{" "}
               <a
-                href="https://drive.google.com/file/d/1w3aWK5K4pY2mKvhsXcM1LdP238GOWDqw/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1EaQ9HFiy_DgkJ4FutJBRWna2VWq6Xs_x/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
