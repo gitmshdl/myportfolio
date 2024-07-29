@@ -3,8 +3,9 @@ import { Col } from "react-bootstrap";
 import classes from "./ProjectCard.module.css";
 import { TbLivePhoto } from "react-icons/tb";
 import { AiOutlineGithub } from "react-icons/ai";
+import { FaRegFileWord } from "react-icons/fa";
 
-function ProjectCard({ title, description, image, link, github }) {
+function ProjectCard({ title, description, image, link, github, word }) {
   return (
     <Col sm={6} md={4}>
       <div className={classes.imageBox}>
@@ -33,6 +34,18 @@ function ProjectCard({ title, description, image, link, github }) {
                 }
               >
                 <TbLivePhoto size="3rem" />
+              </a>
+            )}
+            {word && (
+              <a
+                href={word}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={
+                  "ani_bounceIn aniUtil_onMouse aniUtil_active aniUtil_onMouseRepeat"
+                }
+              >
+                <FaRegFileWord size="3rem" />
               </a>
             )}
           </div>

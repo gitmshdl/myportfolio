@@ -50,15 +50,13 @@ function About() {
               the COVID-19 pandemic. Before the outbreak, I pursued a career in
               accounting, but I sensed a desire for something more fulfilling
               and dynamic. It was during this time that I delved into the realm
-              of coding, seeking a new avenue to channel my passion and
+              of data and coding, seeking a new avenue to channel my passion and
               creativity. <br />
               <br />
-              As I immersed myself in coding, I quickly realized the vast
-              potential and endless possibilities it offered. Each line of code
+              As I immersed myself into data, I quickly realized the vast
+              potential and endless possibilities it offered. Each line of data
               became a brushstroke, painting a picture of innovation and
-              problem-solving. With every project, I found myself captivated by
-              the intricacies of software development, and I knew I had
-              discovered my true calling.
+              problem-solving.
               <br />
               <br />I am determined to excel and elevate my skills to new
               heights. I am committed to embracing every challenge and seizing

@@ -16,12 +16,24 @@ function Projects() {
   const title = "Projects";
   const projects = [
     {
+      id: 9,
+      title: "Excel, Tableau, MySQL: Employee Analysis",
+      description:
+        "Sample employee data analysis using Excel, Tableau, and SQL",
+      image: sqlImage,
+      github:
+        "https://github.com/gitmshdl/employee_analysis/blob/main/employee_sample_sql.sql",
+      word: "https://docs.google.com/document/d/1iSTWnM4BuPGCM5lJsZyynce9bhgNMyQu/edit?usp=sharing&ouid=100836827384199721318&rtpof=true&sd=true",
+    },
+    {
       id: 8,
-      title: "MySQL: Data analysis on COVID19",
-      description: "",
+      title: "Excel,Tableau, MySQL: Data analysis on COVID19",
+      description:
+        "Sample data analysis during covid using Excel, Tableau, and SQL",
       image: sqlImage,
       github:
         "https://github.com/gitmshdl/portfolioproject-COVID-DATA-ANALYSIS/blob/main/PortfolioProject-COVID19.sql",
+      word: "https://docs.google.com/document/d/1gLvcXSr0nJ8HDQ4CzgzRmH4CwvF5MvJp/edit?usp=drive_link&ouid=100836827384199721318&rtpof=true&sd=true",
     },
     {
       id: 7,
