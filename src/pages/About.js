@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function About() {
   const title1 = "Hi, I am David Lee";
-  const title2 = "Data Analyst";
+  const title2 = "Data Analyst / Accountant";
   return (
     <div className={classes.container} id="about">
       <Container>
@@ -41,7 +41,7 @@ function About() {
             <h6
               className={`${classes.text} animate__animated animate__slideInDown`}
             >
-              Data Analyst / SQL Fan
+              SQL Fan
             </h6>
           </Col>
           <Col xs={12} md={6} xl={7} className={`${classes.right} mb-3`}>
@@ -52,15 +52,10 @@ function About() {
               and dynamic. It was during this time that I delved into the realm
               of data and coding, seeking a new avenue to channel my passion and
               creativity. <br />
-              <br />
               As I immersed myself into data, I quickly realized the vast
               potential and endless possibilities it offered. Each line of data
               became a brushstroke, painting a picture of innovation and
               problem-solving.
-              <br />
-              <br />I am determined to excel and elevate my skills to new
-              heights. I am committed to embracing every challenge and seizing
-              every opportunity to grow as a Data Analyst.
             </h6>
           </Col>
         </Row>
