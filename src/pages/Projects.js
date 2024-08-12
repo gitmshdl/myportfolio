@@ -11,10 +11,27 @@ import ProjectCard from "../components/ProjectCard";
 import news from "../assets/news.png";
 import realEstate from "../assets/real-estate.png";
 import sqlImage from "../assets/sql.jpg";
+import lookerImage from "../assets/looker.png";
 
 function Projects() {
   const title = "Projects";
   const projects = [
+    {
+      id: 11,
+      title: "Employees Data Analysis",
+      description: "Looker Dashboard on Employee Data",
+      image: lookerImage,
+      looker:
+        "https://lookerstudio.google.com/reporting/630dae55-171d-434f-8cd0-5b267740715d",
+    },
+    {
+      id: 10,
+      title: "2016 Rio Olympics Advertisements Data Analysis",
+      description: "Looker Dashboard on 2016 Rio Olympics Advertisements data",
+      image: lookerImage,
+      looker:
+        "https://lookerstudio.google.com/reporting/6c9f7968-318b-4f1f-a79d-a34dc0785829",
+    },
     {
       id: 9,
       title: "Excel, Tableau, MySQL: Employee Analysis",
