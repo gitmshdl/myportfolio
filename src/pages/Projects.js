@@ -17,6 +17,14 @@ function Projects() {
   const title = "Projects";
   const projects = [
     {
+      id: 12,
+      title: "August, 2024 Toronto Weather Analysis",
+      description: "Looker Dashboard on Toronto Weather during August, 2024",
+      image: lookerImage,
+      looker:
+        "https://lookerstudio.google.com/reporting/06da62cc-ddf7-4229-a1f9-899f24d87869",
+    },
+    {
       id: 11,
       title: "Employees Data Analysis",
       description: "Looker Dashboard on Employee Data",
