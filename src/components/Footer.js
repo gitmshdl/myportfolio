@@ -12,7 +12,7 @@ function Footer() {
     },
     {
       title: "CV",
-      link: "https://drive.google.com/file/d/16-PwuQ_93rZsByYFkTRyV2iwk-8NQVJG/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1dri14R2ttelzeldSmg228FqjYOPj7glq/view?usp=sharing",
       badge: <GrDocumentPdf size="3rem" />,
     },
   ];
