@@ -150,7 +150,7 @@ function Skills() {
             <h6>
               Get my{" "}
               <a
-                href="https://drive.google.com/file/d/1dri14R2ttelzeldSmg228FqjYOPj7glq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1E4Fe9FgGSftlh-FJH86o0xAHgVbaJqAE/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
