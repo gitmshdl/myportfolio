@@ -29,6 +29,8 @@ function Header() {
             </h1>
             <ReactTyped
               strings={[
+                "Accountant",
+                "Financial Analyst",
                 "Dana Analyst",
                 "Front-End Developer",
                 "UI/UX Designer",
