@@ -10,6 +10,7 @@
   color: var(--redorange);
   padding-top: 0.5rem;
   font-weight: bolder;
+  font-size: 4rem;
 }
 
 .title > span {
