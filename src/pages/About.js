@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function About() {
   const title1 = "Hi, I am David Lee";
-  const title2 = "Accountant / Data Analyst";
+  const title2 = "Financial Analyst / Accountant / Data Analyst";
   return (
     <div className={classes.container} id="about">
       <Container>
@@ -41,7 +41,7 @@ function About() {
             <h6
               className={`${classes.text} animate__animated animate__slideInDown`}
             >
-              Number / Data / SQL Fan
+              Financial Analysis / Data / SQL Fan
             </h6>
           </Col>
           <Col xs={12} md={6} xl={7} className={`${classes.right} mb-3`}>
