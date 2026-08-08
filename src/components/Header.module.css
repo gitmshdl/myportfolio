@@ -1,0 +1,60 @@
+.text {
+  color: var(--almond);
+}
+
+.rowContainer {
+  position: relative;
+}
+
+.title {
+  color: var(--redorange);
+  padding-top: 0.5rem;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title > span:hover {
+  color: lemonchiffon;
+}
+
+.btn {
+  color: var(--mango);
+}
+
+.container {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.image {
+  width: 350px;
+  animation: updown 3s ease-in-out infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    position: absolute;
+    top: 3.5rem;
+  }
+  .image {
+    width: 200px;
+  }
+}
