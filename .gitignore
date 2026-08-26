@@ -28,6 +28,9 @@ yarn-error.log*
 
 .vercel
 .env*
+<<<<<<< HEAD
 
 .vercel
 .env*
+=======
+>>>>>>> 800ca12460d9b637a4d914be765772212a936078
