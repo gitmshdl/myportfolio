@@ -1,0 +1,9 @@
+.bold-text {
+  font-weight: bold;
+  color: var(--redorange);
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: var(--redorange);
+}
